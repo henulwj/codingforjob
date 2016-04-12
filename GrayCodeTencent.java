@@ -3,11 +3,11 @@ package codingforjob;
 import java.util.Scanner;
 
 /*
-��һ�����ı����У��������������ڵĴ���ֻ��һλ����������ͬ�� ������ֱ���Ϊ������(Gray Code)�����дһ��������ʹ�õݹ�ķ�������Nλ�ĸ����롣
-����һ������n���뷵��nλ�ĸ����룬˳��Ϊ��0��ʼ��
-����������
+在一组数的编码中，若任意两个相邻的代码只有一位二进制数不同， 则称这种编码为格雷码(Gray Code)，请编写一个函数，使用递归的方法生成N位的格雷码。
+给定一个整数n，请返回n位的格雷码，顺序为从0开始。
+测试样例：
 1
-���أ�["0","1"]
+返回：["0","1"]
  */
 
 
@@ -38,8 +38,8 @@ public class GrayCodeTencent {
 	}
 	
 	/***
-	 * �ݹ�ʵ��
-	 * ˼·�����ڳ������λ����ߵ�һλ�����������λԪ��ȫ���¶Գƣ����Ը���n-1�ĸ����룬��nλ�ĸ�����
+	 * 递归实现
+	 * 思路：由于除了最高位（左边第一位），格雷码的位元完全上下对称，可以根据n-1的格雷码，求n位的格雷码
 	 * @param n
 	 * @return
 	 */
@@ -59,7 +59,7 @@ public class GrayCodeTencent {
 	}
 	
 	/***
-	 * �ǵݹ�ʵ��
+	 * 非递归实现
 	 * @param n
 	 * @return
 	 */
@@ -78,7 +78,7 @@ public class GrayCodeTencent {
 	}
 	
 	/***
-	 * �ǵݹ�ʵ��
+	 * 非递归实现
 	 * @param n
 	 * @return
 	 */

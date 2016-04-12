@@ -7,7 +7,7 @@ Two binary trees are considered equal if they are structurally identical and the
  */
 
 /***
- * 思路：递归调用
+ * 鎬濊矾锛氶�掑綊閬嶅巻寰幆
  * @author lwj
  *
  */

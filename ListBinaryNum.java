@@ -3,12 +3,12 @@ package codingforjob;
 import java.util.Scanner;
 
 /*
-Ê±ÏÞ£º100ms ÄÚ´æÏÞÖÆ£º10000K  ×ÜÊ±ÏÞ£º300ms
-ÃèÊö£º ÊäÈëÒ»¸öÐ¡ÓÚ20µÄÕýÕûÊýn£¬ÒªÇó°´´ÓÐ¡µ½´óµÄË³ÐòÊä³öËùÓÐµÄnÎ»¶þ½øÖÆÊý£¬Ã¿¸öÊýÕ¼Ò»ÐÐ¡£
-ÊäÈë£º ÊäÈëÒ»¸öÐ¡ÓÚ20µÄÕýÕûÊýn¡£
-Êä³ö£º °´´ÓÐ¡µ½´óµÄË³ÐòÊä³öËùÓÐµÄnÎ»¶þ½øÖÆÊý£¬Ã¿¸öÊýÕ¼Ò»ÐÐ¡£
-ÊäÈëÑùÀý£º 3
-Êä³öÑùÀý£º
+æ—¶é™ï¼š100ms å†…å­˜é™åˆ¶ï¼š10000K  æ€»æ—¶é™ï¼š300ms
+æè¿°ï¼š è¾“å…¥ä¸€ä¸ªå°äºŽ20çš„æ­£æ•´æ•°nï¼Œè¦æ±‚æŒ‰ä»Žå°åˆ°å¤§çš„é¡ºåºè¾“å‡ºæ‰€æœ‰çš„nä½äºŒè¿›åˆ¶æ•°ï¼Œæ¯ä¸ªæ•°å ä¸€è¡Œã€‚
+è¾“å…¥ï¼š è¾“å…¥ä¸€ä¸ªå°äºŽ20çš„æ­£æ•´æ•°nã€‚
+è¾“å‡ºï¼š æŒ‰ä»Žå°åˆ°å¤§çš„é¡ºåºè¾“å‡ºæ‰€æœ‰çš„nä½äºŒè¿›åˆ¶æ•°ï¼Œæ¯ä¸ªæ•°å ä¸€è¡Œã€‚
+è¾“å…¥æ ·ä¾‹ï¼š 3
+è¾“å‡ºæ ·ä¾‹ï¼š
 000
 001
 010
@@ -38,7 +38,7 @@ public class ListBinaryNum {
 	}
 	
 	/***
-	 * ½«Ê®½øÖÆÊý×ª¶þ½øÖÆÊý£¬³ýÒÔ2È¡Óà
+	 * å°†åè¿›åˆ¶æ•°è½¬äºŒè¿›åˆ¶æ•°ï¼Œé™¤ä»¥2å–ä½™
 	 * @author lwj
 	 *
 	 */
@@ -63,7 +63,7 @@ public class ListBinaryNum {
 	}
 	
 	/***
-	 * ÓÃ»ØËÝ·¨
+	 * ç”¨å›žæº¯æ³•
 	 * @param n
 	 * @param m
 	 * @param arr

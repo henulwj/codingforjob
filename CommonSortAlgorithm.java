@@ -18,7 +18,7 @@ public class CommonSortAlgorithm {
 	}
 
 	/***
-	 * Ã°ÅİÅÅĞò
+	 * å†’æ³¡æ’åº
 	 * @param arr
 	 * @return
 	 */
@@ -37,7 +37,7 @@ public class CommonSortAlgorithm {
 	}
 	
 	/***
-	 *Ñ¡ÔñÅÅĞò 
+	 *é€‰æ‹©æ’åº 
 	 * @param arr
 	 * @return
 	 */
@@ -57,18 +57,18 @@ public class CommonSortAlgorithm {
 	}
 	
 	/***
-	 * ²åÈëÅÅĞò
+	 * æ’å…¥æ’åº
 	 * @param arr
 	 * @return int[]
 	 */
 	public static int[] insert_sort(int[] arr){
 		
-		for(int i=0; i<arr.length-1; i++){ //iµÄ×î´óÖµÒªÎªµ¹ÊıµÚ¶ş¸öÊıÖµ
+		for(int i=0; i<arr.length-1; i++){ //içš„æœ€å¤§å€¼è¦ä¸ºå€’æ•°ç¬¬äºŒä¸ªæ•°å€¼
 			for(int j=i+1; j>0; j--){
 				if(arr[j]<arr[j-1]){
 					int tmp = arr[j];
 					arr[j] = arr[j-1];
-					arr[j-1] = tmp;  //¿ÉÒÔÖ»¼ÇÂ¼Òª²åÈëµÄÎ»ÖÃ£¬¼õÉÙÌæ»»´ÎÊı
+					arr[j-1] = tmp;  //å¯ä»¥åªè®°å½•è¦æ’å…¥çš„ä½ç½®ï¼Œå‡å°‘æ›¿æ¢æ¬¡æ•°
 				}
 			}
 		}
@@ -76,7 +76,7 @@ public class CommonSortAlgorithm {
 	}
 	
 	/***
-	 * »ñÈ¡ÖĞ¼äµã
+	 * è·å–ä¸­é—´ç‚¹
 	 * @param arr
 	 * @param low
 	 * @param high
@@ -88,16 +88,16 @@ public class CommonSortAlgorithm {
 		while(low<high){
 			while(low<high&&arr[high]>key)
 				--high;
-			tmp = arr[high]; arr[high] = key; key = tmp; //¿ÉÒÔ²»Ìæ»»£¬Ö±½Ó½«arr[high] = key
+			tmp = arr[high]; arr[high] = key; key = tmp; //å¯ä»¥ä¸æ›¿æ¢ï¼Œç›´æ¥å°†arr[high] = key
 			while(low<high&&arr[low]<key)
 				++low;
-			tmp = arr[low]; arr[low] = key; key = tmp;  //¿ÉÒÔ²»Ìæ»»£¬Ö±½Ó½«arr[low] = key
+			tmp = arr[low]; arr[low] = key; key = tmp;  //å¯ä»¥ä¸æ›¿æ¢ï¼Œç›´æ¥å°†arr[low] = key
 		}
 		return low;
 	}
 	
 	/***
-	 * µİ¹éµ÷ÓÃ
+	 * é€’å½’è°ƒç”¨
 	 * @param arr
 	 * @param low
 	 * @param high
@@ -111,7 +111,7 @@ public class CommonSortAlgorithm {
 	}
 	
 	/***
-	 * ¿ìËÙÅÅĞò
+	 * å¿«é€Ÿæ’åº
 	 * @param arr
 	 * @return
 	 */
@@ -123,7 +123,7 @@ public class CommonSortAlgorithm {
 	}
 	
 	/***
-	 * Ï£¶ûÅÅĞò
+	 * å¸Œå°”æ’åº
 	 * @param arr
 	 * @return
 	 */
@@ -146,7 +146,7 @@ public class CommonSortAlgorithm {
 	}
 	
 	/***
-	 * ¹é²¢Á½¸öÅÅºÃĞòµÄÊı×é
+	 * å½’å¹¶ä¸¤ä¸ªæ’å¥½åºçš„æ•°ç»„
 	 * @param arr
 	 * @param left
 	 * @param center
@@ -171,7 +171,7 @@ public class CommonSortAlgorithm {
 	}
 	
 	/***
-	 * µİ¹éµ÷ÓÃ¹é²¢
+	 * é€’å½’è°ƒç”¨å½’å¹¶
 	 * @param arr
 	 * @param left
 	 * @param right
@@ -186,7 +186,7 @@ public class CommonSortAlgorithm {
 	}
 
 	/***
-	 * ¹é²¢ÅÅĞò
+	 * å½’å¹¶æ’åº
 	 * @param arr
 	 * @return
 	 */
@@ -198,7 +198,7 @@ public class CommonSortAlgorithm {
 	}
 	
 	/***
-	 * ´´½¨´ó¶¥¶Ñ
+	 * åˆ›å»ºå¤§é¡¶å †
 	 * @param arr
 	 * @param heapsize
 	 */
@@ -219,7 +219,7 @@ public class CommonSortAlgorithm {
 	}
 	
 	/***
-	 * ¶ÑÅÅĞò
+	 * å †æ’åº
 	 * @param arr
 	 * @return
 	 */

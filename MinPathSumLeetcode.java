@@ -9,13 +9,13 @@ Note: You can only move either down or right at any point in time.
  */
 
 /***
- * Ë¼Â·£º±¾ÌâÊ±leetcode 64Ìâ£¬Çó¸ø¶¨¶şÎ¬Êı×é£¬´Ó×óÉÏ½Çµ½ÓÒÏÂ½ÇµÄ×î¶ÌÂ·¾¶£º
- * 1¡¢Èç¹û²ÉÓÃÃ¶¾ÙµÄ»°£¬Èç¹ûm,n±È½Ï´óÊ±£¬²»¿ÉĞĞ
- * 2¡¢²ÉÓÃ¶¯Ì¬¹æ»® dp[i][j] = min{dp[i-1][j]+dp[i][j-1]}+a[i][j]
- * a¡¢dp[0][0] = a[0][0]
- * b¡¢dp[0][j>0] = dp[0][j-1] + a[0][j]
- * c¡¢dp[i>0][0] = dp[i-1][0] + a[i][0]
- * d¡¢dp[i>0][j>0] = min{dp[i-1][j]+dp[i][j-1]}+a[i][j]
+ * æ€è·¯ï¼šæœ¬é¢˜æ—¶leetcode 64é¢˜ï¼Œæ±‚ç»™å®šäºŒç»´æ•°ç»„ï¼Œä»å·¦ä¸Šè§’åˆ°å³ä¸‹è§’çš„æœ€çŸ­è·¯å¾„ï¼š
+ * 1ã€å¦‚æœé‡‡ç”¨æšä¸¾çš„è¯ï¼Œå¦‚æœm,næ¯”è¾ƒå¤§æ—¶ï¼Œä¸å¯è¡Œ
+ * 2ã€é‡‡ç”¨åŠ¨æ€è§„åˆ’ dp[i][j] = min{dp[i-1][j]+dp[i][j-1]}+a[i][j]
+ * aã€dp[0][0] = a[0][0]
+ * bã€dp[0][j>0] = dp[0][j-1] + a[0][j]
+ * cã€dp[i>0][0] = dp[i-1][0] + a[i][0]
+ * dã€dp[i>0][j>0] = min{dp[i-1][j]+dp[i][j-1]}+a[i][j]
  * @author lwj
  *
  */
@@ -43,7 +43,7 @@ public class MinPathSumLeetcode {
 	}
 	
 	/***
-	 * ÕÒµ½×îĞ¡Â·¾¶Öµ£¬²¢·µ»Ø
+	 * æ‰¾åˆ°æœ€å°è·¯å¾„å€¼ï¼Œå¹¶è¿”å›
 	 * @param arr
 	 */
 	public static int findMinPathSum(int[][] arr){
@@ -71,7 +71,7 @@ public class MinPathSumLeetcode {
 	
 	
 	/***
-	 * ÓÅ»¯¿Õ¼ä£¬Ö»Ê¹ÓÃÒ»Î¬À´´æ´¢,¿Õ¼ä¸´ÔÓ¶ÈÎª O(n)
+	 * ä¼˜åŒ–ç©ºé—´ï¼Œåªä½¿ç”¨ä¸€ç»´æ¥å­˜å‚¨,ç©ºé—´å¤æ‚åº¦ä¸º O(n)
 	 * @param arr
 	 */
 	public static int findMinPathSum2(int[][] arr){

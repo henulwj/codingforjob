@@ -7,12 +7,12 @@ Given n points on a 2D plane, find the maximum number of points that lie on the 
  */
 
 /***
- * Ë¼Â·£º
- * 1.Á½¸öÑ­»·£¬¼ÇÂ¼Ã¿Ò»¸öµãÓëÊ£ÓàµãµÄĞ±ÂÊ£¬Í³¼ÆÏàÍ¬Ğ±ÂÊµãµÄÊıÄ¿
- * 2.×¢Òâ×ø±êÎ»ÖÃÏàÍ¬µã
- * 3.×¢Òâ´¹Ö±xÖáµÄµã
- * 4.×¢ÒâÍ¬Ò»¸öµã²»ÒªÔÙ¼ÆËã
- * 5.¿¼ÂÇµ½Ò»¸öµã±»¼ÆËãÁ½´ÎµÄÇé¿ö {[1,1],[0,0],[1,1]}
+ * æ€è·¯ï¼š
+ * 1.ä¸¤ä¸ªå¾ªç¯ï¼Œè®°å½•æ¯ä¸€ä¸ªç‚¹ä¸å‰©ä½™ç‚¹çš„æ–œç‡ï¼Œç»Ÿè®¡ç›¸åŒæ–œç‡ç‚¹çš„æ•°ç›®
+ * 2.æ³¨æ„åæ ‡ä½ç½®ç›¸åŒç‚¹
+ * 3.æ³¨æ„å‚ç›´xè½´çš„ç‚¹
+ * 4.æ³¨æ„åŒä¸€ä¸ªç‚¹ä¸è¦å†è®¡ç®—
+ * 5.è€ƒè™‘åˆ°ä¸€ä¸ªç‚¹è¢«è®¡ç®—ä¸¤æ¬¡çš„æƒ…å†µ {[1,1],[0,0],[1,1]}
  * @author lwj
  *
  */
@@ -43,17 +43,17 @@ public class LeetCode149MaxPointsonaLine {
 			int verticalnum = 0;
 			int samenum = 0;
 			for (int j = 0; j < points.length; j++) {
-				//µãÊı×éÖĞÏàÍ¬Î»ÖÃµã
+				//ç‚¹æ•°ç»„ä¸­ç›¸åŒä½ç½®ç‚¹
 				if(j == i)
 					continue;
-				//ÏàÍ¬µã
+				//ç›¸åŒç‚¹
 				if(points[i].x == points[j].x && points[i].y == points[j].y){
 					if(samenum == 0)
 						samenum = 2;
 					else
 						samenum++;
 				}
-				//´¹Ö±µÄµã
+				//å‚ç›´çš„ç‚¹
 				else if(points[i].x == points[j].x){
 					if(verticalnum == 0)
 						verticalnum = 2;
@@ -70,7 +70,7 @@ public class LeetCode149MaxPointsonaLine {
 					}
 					curmaxnum = Math.max(curmaxnum, slopenum.get(k));
 				}
-				//Ò»¸öµã±»¼ÆËãÁ½´Î
+				//ä¸€ä¸ªç‚¹è¢«è®¡ç®—ä¸¤æ¬¡
 				if(samenum>0 && curmaxnum>0){
 					curmaxnum--;
 				}

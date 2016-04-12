@@ -3,7 +3,7 @@ package codingforjob;
 
 
 /*
- * É¾³ıµ¥Á´±íÖĞµÄÄ³Ò»ÌØ¶¨ÖµÔªËØ
+ * åˆ é™¤å•é“¾è¡¨ä¸­çš„æŸä¸€ç‰¹å®šå€¼å…ƒç´ 
  */
 
 public class ListDelEqualNumCtrip {

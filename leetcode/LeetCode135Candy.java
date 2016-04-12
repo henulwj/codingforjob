@@ -11,10 +11,10 @@ What is the minimum candies you must give?
  */
 
 /***
- * Ë¼Â·£º
- * 1¡¢ÏÈ´ÓÇ°Íùºó±éÀúÅĞ¶Ïratings[i+1]>ratings[i]£¬È»ºónums[i+1] = nums[i] + 1;
- * 2¡¢ÔÚ´ÓºóÍùÇ°±éÀúÅĞ¶Ïratings[i]>ratings[i+1]£¬×¢Òâ»¹ÒªÅĞ¶Ïnums[i]<=nums[i+1],È»ºó²ÅÄÜnums[i] = nums[i+1] + 1;
- * 3¡¢×îºó½«numsÊı×é±éÀúÏà¼Ó¼´ÎªËùÇó
+ * æ€è·¯ï¼š
+ * 1ã€å…ˆä»å‰å¾€åéå†åˆ¤æ–­ratings[i+1]>ratings[i]ï¼Œç„¶ånums[i+1] = nums[i] + 1;
+ * 2ã€åœ¨ä»åå¾€å‰éå†åˆ¤æ–­ratings[i]>ratings[i+1]ï¼Œæ³¨æ„è¿˜è¦åˆ¤æ–­nums[i]<=nums[i+1],ç„¶åæ‰èƒ½nums[i] = nums[i+1] + 1;
+ * 3ã€æœ€åå°†numsæ•°ç»„éå†ç›¸åŠ å³ä¸ºæ‰€æ±‚
  * @author lwj
  *
  */
